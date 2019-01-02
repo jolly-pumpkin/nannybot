@@ -1,15 +1,61 @@
 {
-    "name": "nannybot",
-    "services": [
-        {
-            "type": "endpoint",
-            "name": "development",
-            "endpoint": "http://localhost:3978/api/messages",
-            "appId": "",
-            "appPassword": "",
-            "id": "1"
-        }
-    ],
-    "padlock": "",
-    "version": "2.0"
+  "name": "nannybot",
+  "padlock": "14Gvl2TDAk0i5QB+r5+cFQ==!fevmjkE+DAV3b+aVLigorbgV7pao4KfCtGoP1KDzKTh0kHomb0d3hbJTE8vY12pA",
+  "version": "2.0",
+  "services": [
+    {
+      "tenantId": "c51e6e4d-7238-4f35-a275-344afd80e707",
+      "subscriptionId": "d718b90c-8c4d-4209-a06c-12b68b8e4f8a",
+      "resourceGroup": "nannybot",
+      "serviceName": "nannybot",
+      "type": "abs",
+      "name": "nannybot",
+      "id": "1"
+    },
+    {
+      "connectionString": "8kvlkujXeMo3+VCvypSrLQ==!N4Tq0S82AssxMuJDJWHvRKB96dYh1DLxGeZiYq/rpiRXC/LU4pgWZA6bkLPjPdzZbUw13SyFbjWF+V/8FzjKV8x7k6Ap/4PDWiU/chQ/mvcuza/gznlzMdCqT0iB+ohyErcgJUh8a9YE+/5GalGqTjMsTrihVPNV8azJWOLIShcosCNvCSt2oq0RIAH68XvzOAB5Mwik61OsDc/MSdHxyA==",
+      "tenantId": "c51e6e4d-7238-4f35-a275-344afd80e707",
+      "subscriptionId": "d718b90c-8c4d-4209-a06c-12b68b8e4f8a",
+      "resourceGroup": "nannybot",
+      "serviceName": "nannybot",
+      "type": "blob",
+      "id": "2"
+    },
+    {
+      "appId": "",
+      "appPassword": "",
+      "endpoint": "http://localhost:3978/api/messages",
+      "type": "endpoint",
+      "name": "development",
+      "id": "3"
+    },
+    {
+      "appId": "e0c6cec4-8bae-4599-b82b-1e35ad2f3221",
+      "appPassword": "VOZFTz4Swhu0iVaGvnOOOw==!3NHnCpbOCJW6Q2dxnPtxKdIaXCdooN7q6pw18yxyfwk=",
+      "endpoint": "https://nannybot.azurewebsites.net/api/messages",
+      "type": "endpoint",
+      "name": "production",
+      "id": "4"
+    },
+    {
+      "instrumentationKey": "S+Y3crMt/c5vuj697iOBjQ==!q2fEUsczwEyqStx6j6xs7eAJfZiWk4liaLeRQFENIm8TAj8twbDcABVkEswnVHpb",
+      "applicationId": "9673136f-eac9-453d-b1ad-c967503c0b4a",
+      "apiKeys": {},
+      "tenantId": "c51e6e4d-7238-4f35-a275-344afd80e707",
+      "subscriptionId": "d718b90c-8c4d-4209-a06c-12b68b8e4f8a",
+      "resourceGroup": "nannybot",
+      "serviceName": "nannybotz72x75",
+      "type": "appInsights",
+      "id": "5"
+    },
+    {
+      "appId": "75d908e4-0bcc-4f9e-af65-3ec2a44adb46",
+      "authoringKey": "aoNriXgmQ9zyrRF08aoxWA==!Z5oyTog6Vr85MrqOcjLPih2bwkqjEF0hFyZrlDxHzaxYsZmG7tHW209tBOtlRzOv",
+      "version": "0.1",
+      "region": "westus",
+      "type": "luis",
+      "name": "BasicBotLuisApplication",
+      "id": "6"
+    }
+  ]
 }
